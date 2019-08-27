@@ -1,0 +1,19 @@
+{
+  "name": "node-auth-with-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js -e js, ejs",
+    "start": "node app.js"
+  },
+  "author": "Lewis Birch",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11"
+  }
+}

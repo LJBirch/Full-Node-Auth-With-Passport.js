@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js -e js, ejs",
-    "start": "node app.js"
+    "dev": "nodemon app.js -e js,ejs"
   },
   "author": "Lewis Birch",
   "license": "ISC",
@@ -13,6 +12,7 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
+    "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.11"
   }

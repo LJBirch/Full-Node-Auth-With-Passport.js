@@ -18,6 +18,9 @@ app.use(
   })
 )
 
+// Serve static public dir
+app.use(express.static('public'))
+
 // Auth Routes
 app.use('/auth', require('./routes/auth'))
 

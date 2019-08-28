@@ -69,4 +69,9 @@ router.get('/login', (req, res) => {
   res.render('login')
 })
 
+// Login POST Route
+router.post('/login', async (req, res) => {
+  res.send('Logged In!')
+})
+
 module.exports = router
